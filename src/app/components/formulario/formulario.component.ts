@@ -34,10 +34,10 @@ export class FormularioComponent {
             password: ['', Validators.required],
             gender: ['', Validators.required],
             birthDate: ['', Validators.required],
-            age: ['', [Validators.required, Validators.min(1)]],
         });
     }
-//'http://localhost:3000/usuarios' - troquei
+    //retirei do constructor age: ['', [Validators.required, Validators.min(1)]],
+//'http://localhost:3000/usuarios' - troquei pelo railway
     onSubmit() {
         if (this.cadastroForm.valid) {
             this.http.post('https://projetointegrador2025-production-94db.up.railway.app/Usuarios', this.cadastroForm.value)

@@ -1,0 +1,166 @@
+#results {
+    margin-top: 20px;
+}
+
+.result {
+    
+    width: 80%;
+    margin-bottom: 15px;
+    height: auto;
+
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif; 
+
+    max-width: 900px; /* Máximo de 1200px de largura */
+    min-width: 300px; /* Mínimo de 300px de largura */
+
+    height: auto; /* Altura ajustável conforme o conteúdo */
+    //min-height: 200px; /* Mínimo de 200px de altura */
+    //max-height: 600px; /* Máximo de 600px de altura */
+
+    margin: 0 auto; /* Centraliza a div */
+
+    text-align: center;
+    overflow: auto; /* Garante que a tabela expanda corretamente */
+
+}
+
+.result p {
+    margin: 5px 0;
+}
+
+
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #008cff;  /* Cor de fundo laranja */
+    color: #333;
+    
+}
+
+header {
+    background-color: #2d3a3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    //margin-bottom: 15px;
+    width: 80%;
+    align-self: center;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif; 
+
+    max-width: 900px; /* Máximo de 1200px de largura */
+    min-width: 300px; /* Mínimo de 300px de largura */
+
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 12px;
+    background-color: #2d3a3a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c2626;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2d3a3a;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.tResultado{
+
+    width: 90%;
+    align-self: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif; 
+
+    max-width: 900px; /* Máximo de 1200px de largura */
+    min-width: 300px; /* Mínimo de 300px de largura */
+
+    height: auto; /* Altura ajustável conforme o conteúdo */
+    min-height: 200px; /* Mínimo de 200px de altura */
+    max-height: 600px; /* Máximo de 600px de altura */
+
+    margin: 0 auto; /* Centraliza a div */
+
+
+    table {
+        border-spacing: 0; /* Remove o espaçamento entre as células */
+        border-radius: 10px; /* Arredonda os cantos da tabela */
+    }
+    /* Estiliza o cabeçalho da tabela */
+    th {
+        font-weight: bold; /* Deixa os nomes das colunas em negrito */
+        background-color: #c6c6cc; /* Cinza escuro para o título */
+        /*color: #FFFFFF; /* Texto branco para contraste */
+        padding: 10px; /* Adiciona espaçamento interno */
+        text-align: center; /* Alinha o texto à esquerda */
+        
+    }
+    
+    /* Estiliza as células da tabela */
+    td {
+        padding: 10px; /* Adiciona espaçamento interno */
+        /*border: 0px solid #b61e1e; /* Cria bordas finas */
+        text-align: center; /* Alinha o texto à esquerda */
+        background-color: #e2e2e2; /* Adiciona um fundo cinza claro */
+    }
+    
+
+}

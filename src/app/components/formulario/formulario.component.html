@@ -35,18 +35,18 @@
 
 <section class="form-section">
     <h2>Cadastre-se aqui!</h2>
-    <!--
+    
     <form [formGroup]="cadastroForm" (ngSubmit)="onSubmit()">
-        <label for="Nome">Nome</label>
+        <label for="name">Nome</label>
         <input type="text" formControlName="name" required />
 
-        <label for="Sobrenome">Sobrenome</label>
+        <label for="lastName">Sobrenome</label>
         <input type="text" formControlName="lastName" required />
 
-        <label for="Email">Email</label>
+        <label for="email">Email</label>
         <input type="email" formControlName="email" required />
 
-        <label for="Senha">Senha</label>
+        <label for="password">Senha</label>
         <input type="password" formControlName="password" required />
 
         <label for="Genero">Gênero</label>
@@ -68,6 +68,6 @@
         
         <!-- 🔹 Mensagem de sucesso que aparece depois do cadastro -->
         <p *ngIf="mensagemSucesso" class="sucesso">{{ mensagemSucesso }}</p>
-    <!--</form>-->
+        </form>
         
 </section>

@@ -1,3 +1,29 @@
 
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgb(1, 36, 56), rgb(19, 85, 160)); 
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .menu a:hover {
+    color: #ffccff;
+    text-decoration: underline;
+  }
+  
+  
   
   

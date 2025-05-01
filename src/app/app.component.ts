@@ -14,7 +14,7 @@ export class AppComponent {
 }
 
 const api = axios.create({
-  baseURL:'https://localhost:3000'
+  baseURL: 'https://projetointegrador2025-production-94db.up.railway.app'//'https://localhost:3000'
 })
 
 function app(){

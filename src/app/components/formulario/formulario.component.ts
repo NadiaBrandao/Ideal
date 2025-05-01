@@ -37,10 +37,10 @@ export class FormularioComponent {
             age: ['', [Validators.required, Validators.min(1)]],
         });
     }
-
+//'http://localhost:3000/usuarios' - troquei
     onSubmit() {
         if (this.cadastroForm.valid) {
-            this.http.post('http://localhost:3000/usuarios', this.cadastroForm.value)
+            this.http.post('https://projetointegrador2025-production-94db.up.railway.app/Usuarios', this.cadastroForm.value)
                 .subscribe(
                     response => {
                         console.log('✅ Usuário cadastrado com sucesso:', response);

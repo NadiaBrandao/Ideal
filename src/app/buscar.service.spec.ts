@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class BuscarService {
 
-  private apiUrl = 'http://localhost:3000/api/buscar-local'; // URL do seu backend
+  private apiUrl = 'https://projetointegrador2025-production-94db.up.railway.app/api/buscar-local'; // URL do seu backend http://localhost:3000/api/buscar-local 
 
   constructor(private http: HttpClient) { }
 

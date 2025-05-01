@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BuscarService {
-  private apiUrl = 'http://localhost:3000/api/buscar-local'; 
+  private apiUrl = 'https://projetointegrador2025-production-94db.up.railway.app/api/buscar-local'; //http://localhost:3000/api/buscar-local
 
   constructor(private http: HttpClient) {}
 

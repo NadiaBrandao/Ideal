@@ -16,6 +16,7 @@ body {
     width: 100%;
     max-width: 400px;
     padding: 20px;
+    padding-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -74,4 +75,15 @@ body {
     color: green;
     font-weight: bold;
     margin-top: 10px;
-}
+  }
+  .form-section select{
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff; /* Azul para a borda dos campos */
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px; /* Adicionando margem abaixo dos inputs para espaçamento */
+    cursor: pointer;
+  }
+

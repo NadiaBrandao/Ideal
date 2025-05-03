@@ -17,6 +17,8 @@
     max-width: 50%; /* A largura máxima da imagem será 50% do tamanho disponível */
     height: auto; /* Mantém a proporção da imagem */
     flex: 1 1 300px; /* Permite que a imagem encolha ou cresça, mas ocupe no mínimo 300px de largura */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 

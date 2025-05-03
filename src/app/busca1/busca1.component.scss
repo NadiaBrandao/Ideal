@@ -175,17 +175,42 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 0 70px;
+    padding-top: 55px;
     font-family: "Roboto", sans-serif; 
 }
 
 .Texto1 p{
-        font-size: 20px;
-        font-style: italic;
-        padding-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 20px;
+
 }
 .Texto1 h2{
+    color: white;
     font-size: 25px;
     font-style: bold;
     padding-bottom: 40px;
-    padding-top: 45px;
+    padding-top: 10%;
+
+    width: 100%;
+    margin-bottom: 15px;
+    height: auto;
+
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif; 
+
+    max-width: 900px; /* Máximo de 1200px de largura */
+    min-width: 300px; /* Mínimo de 300px de largura */
+
+    height: auto; /* Altura ajustável conforme o conteúdo */
+    //min-height: 200px; /* Mínimo de 200px de altura */
+    //max-height: 600px; /* Máximo de 600px de altura */
+
+    margin: 0 auto; /* Centraliza a div */
+
+    text-align: center;
+    overflow: auto; /* Garante que a tabela expanda corretamente */
 }
